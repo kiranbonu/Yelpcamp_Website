@@ -1,0 +1,25 @@
+ <% include ../partials/header.ejs %>
+ 
+ <div class="container">
+     <div class="row">
+         <h1 style="text-align:center">Welcome to New campings page</h1>
+         <div style="width: 30%; margin: 25px auto">
+             <form action = "/campground" method= "POST">
+                 <div class=form-group>
+                     <input class = "form-control" type="text" name="camp_name" placeholder="Enter camp name">
+                </div>
+                <div class=form-group>
+                     <input class = "form-control" type="text" name="camp_image" placeholder="Enter url here">
+                </div>
+                <div class=form-group>
+                     <input class = "form-control" type="text" name="camp_description" placeholder="Enter the description">
+                </div>
+                <div class=form-group>
+                     <button class = "btn btn-lg btn-primary btn-block">Submit</button>
+                </div>
+                 
+             </form>    
+         </div>
+     </div>
+ </div>
+ <!--<% include ../partials/footer.ejs %>-->
